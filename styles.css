@@ -172,6 +172,33 @@ nav a:hover {
     color: var(--primary-color);
 }
 
+.highlight-section {
+    border: none;
+    background: linear-gradient(145deg, rgba(255,255,255,0.9), rgba(255,255,255,0.95));
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.ai-story {
+    padding: 1rem;
+    border-left: 4px solid var(--accent-color);
+    margin: 1rem 0;
+}
+
+.ai-story h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.ai-story p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.ai-story p:last-child {
+    margin-bottom: 0;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
